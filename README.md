@@ -1,0 +1,2 @@
+# ✨ PC Config – Ctrl+Play 🖥️🚀
+> Este repositório tem como objetivo documentar e padronizar a configuração dos computadores utilizados na escola – elaborado por: [Daniel Antunes](https://github.com/dannesx)
