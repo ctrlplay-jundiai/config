@@ -14,9 +14,7 @@ Programas/ferramentas que estão relacionados ao conteúdo dado em sala, de todo
 | Blender           | `choco install blender`   |
 | Godot             | `choco install godot`     |
 | Node JS           | `choco install nodejs`    |
-| Python 3          | `choco install python`    |
-| Scratch           | `choco install scratch`   |
-| Unity             | `choco install unity`     |
+| Python 3          | `choco install python3`   |
 | Unity Hub         | `choco install unity-hub` |
 | XAMPP             | `choco install xampp-81`  |
 
@@ -33,6 +31,7 @@ Programas/ferramentas que estão relacionados ao conteúdo dado em sala, de todo
 | MagicaVoxel       | [⬇️ Download](https://ephtracy.github.io/)|
 | Piskel            | [⬇️ Download](https://www.piskelapp.com/download)|
 | Roblox            | [⬇️ Download](https://www.roblox.com/create)|
+| Scratch           | [⬇️ Download](https://scratch.mit.edu/download)
 | Stencyl           | [⬇️ Download](https://www.stencyl.com/download/)|
 
 ### 🌐 Online
@@ -62,5 +61,6 @@ Programas/ferramentas que auxiliam no andamento das aulas
 | Google Chrome     | `choco install googlechrome`   |
 | Google Drive      | `choco install googledrive`    |
 | JetBrains Mono    | `choco install jetbrainsmono`  |
+| Visual Studio     | `choco install vcredist140`    |
 | VSCode            | `choco install vscode`         |
 | WinRar            | `choco install winrar`         |
