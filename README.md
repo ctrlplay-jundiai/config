@@ -50,6 +50,17 @@ PIN = '0658'
 
 1. Após o boot e as configurações iniciadas, iremos fazer um Debloat no Windows, utilizando o [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater). Siga o exemplo do repositório
 
+Baixe os arquivos do repositório e extraia no diretório `C:\temp`
+
+Execute o comando abaixo, como administrador
+```powershell
+Set-ExecutionPolicy Unrestricted -Force
+```
+Então execute
+```powershell
+C:\temp\Windows10Debloater-master\Windows10SysPrepDebloater.ps1 -Sysprep -Debloat -Privacy
+```
+
 2. Desative a Inicialização automática do Edge e do OneDrive
 
 ### 3. Instalação de Programas
