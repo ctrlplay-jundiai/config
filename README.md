@@ -30,6 +30,11 @@ Abra o serviço de recuperação do próprio sistema operacional através do cam
 # Teclado 
 'Português (Brasil ABNT2)'
 
+# WI-FI
+'User: SALA1 e SALA2'
+'Pass: cp4lun0s'
+
+
 # Conta Microsoft (Uso Pessoal)
 login = 'ctp.{serialNumber}@hotmail.com'
 senha = 'Cplay1234'
