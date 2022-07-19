@@ -63,7 +63,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Então, execute o comando abaixo para fazer a instalação dos pacotes necessários
 
 ```powershell
-choco install adobereader blender ccleaner git jetbrainsmono vscode winrar arduino blender godot nodejs python3 unity-hub xampp-81 -y
+choco install adobereader ccleaner git jetbrainsmono vscode winrar arduino blender godot nodejs python3 unity-hub xampp-81 -y
 ```
 
 #### 🤖 Executáveis
