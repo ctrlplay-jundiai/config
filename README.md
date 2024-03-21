@@ -2,11 +2,18 @@
 > Este repositório tem como objetivo documentar e padronizar a configuração dos computadores utilizados na escola – elaborado por: [Daniel Antunes](https://github.com/dannesx)
 ---
 ## Links
-- [Formatação](#1-formatação)
-- [Configuração Inicial do Windows](#2-configuração-inicial-do-windows)
-- [Instalação de Programas](#3-instalação-de-programas)
-- [Conta Local para os Alunos](#4-conta-local-para-os-alunos)
-- [Logar Conta Google](#5-logar-conta-google)
+- [✨ PC Config – Ctrl+Play 🖥️🚀](#-pc-config--ctrlplay-️)
+  - [Links](#links)
+  - [Documentação](#documentação)
+    - [1. Formatação](#1-formatação)
+    - [2. Configuração Inicial do Windows](#2-configuração-inicial-do-windows)
+    - [3. Instalação de Programas](#3-instalação-de-programas)
+      - [🍫 Chocolatey](#-chocolatey)
+      - [🤖 Executáveis](#-executáveis)
+    - [4. Conta local para os alunos](#4-conta-local-para-os-alunos)
+      - [Configuração da barra de tarefas](#configuração-da-barra-de-tarefas)
+      - [Atalhos dos Programas](#atalhos-dos-programas)
+    - [5. Logar conta Google](#5-logar-conta-google)
 ## Documentação
 
 ### 1. Formatação
@@ -74,7 +81,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Então, execute o comando abaixo para fazer a instalação dos pacotes necessários
 
 ```powershell
-choco install adobereader ccleaner git jetbrainsmono vscode winrar arduino blender godot nodejs python3 unity-hub xampp-81 -y
+choco install adobereader ccleaner git jetbrainsmono vscode winrar arduino blender nodejs python3 unity-hub xampp-81 googledrive godot --version=3.5.1 -y
 ```
 
 #### 🤖 Executáveis
