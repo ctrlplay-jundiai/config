@@ -51,3 +51,6 @@ function Set-LockScreenImage {
 
 Set-Wallpaper -path $wallpaperPath
 Set-LockScreenImage -path $lockScreenPath
+
+# Manter a janela aberta após a execução dos comandos
+Read-Host -Prompt "Pressione Enter para fechar esta janela"
