@@ -1,6 +1,3 @@
-# Definir política de execução para o processo atual
-Set-ExecutionPolicy Bypass -Scope Process -Force
-
 # Configurar o protocolo de segurança para download
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 
