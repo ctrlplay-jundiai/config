@@ -1,3 +1,6 @@
+# Definir política de execução para o processo atual
+Set-ExecutionPolicy Bypass -Scope Process -Force
+
 # Caminho relativo da imagem que você deseja definir como tela de fundo
 $relativeWallpaperPath = ".\Wallpapers\Wallpaper.jpg"
 
