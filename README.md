@@ -38,13 +38,12 @@ Abra o serviço de recuperação do próprio sistema operacional através do cam
 'Português (Brasil ABNT2)'
 
 # WI-FI
-'User: SALA1 e SALA2'
+'User: CP_ALUNOS'
 'Pass: cp4lun0s'
 
-
 # Conta Microsoft (Uso Pessoal)
-login = 'ctp.{serialNumber}@hotmail.com'
-senha = 'Cplay1234'
+login = 'actrlplay.j@hotmail.com'
+senha = 'CtrlPlay@1234'
 
 # PIN (Número do Endereço da Escola)
 PIN = '0658'
@@ -81,7 +80,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Então, execute o comando abaixo para fazer a instalação dos pacotes necessários
 
 ```powershell
-choco install adobereader ccleaner git jetbrainsmono vscode winrar arduino blender nodejs python3 unity-hub xampp-81 googledrive googlechrome -y
+choco install adobereader git firacode vscode winrar arduino blender lmms nodejs python3 unity-hub xampp-74 googledrive googlechrome insomnia-rest-api-client teamviewer vlc -y
 ```
 
 #### 🤖 Executáveis
@@ -125,4 +124,4 @@ Certifique-se que todos os programas estão com atalhos na área de trabalho
 Entre com a conta Google dos alunos no Chrome e no Drive
 ```python
 login = 'actrlplay.j@gmail.com'
-senha = 'ctrl1234'
+senha = 'CtrlPlay@1234'
