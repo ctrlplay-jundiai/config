@@ -14,7 +14,7 @@ Copy-Item -Path $MagicaVoxel -Destination $destinationFolder -Recurse -Force
 Copy-Item -Path $Piskel -Destination $destinationFolder -Recurse -Force
 
 # Função para criar um atalho na área de trabalho
-function Create-Shortcut {
+function New-Shortcut {
     param (
         [string]$shortcutName,
         [string]$targetPath,
@@ -32,7 +32,7 @@ function Create-Shortcut {
     $WScriptShell = New-Object -ComObject WScript.Shell
     
     # Criar o atalho
-    $shortcut = $WScriptShell.CreateShortcut($shortcutPath)
+    $shortcut = $WScriptShell.NewShortcut($shortcutPath)
     $shortcut.TargetPath = $targetPath
     $shortcut.Description = $description
     if ($iconLocation) {
@@ -46,8 +46,8 @@ function Create-Shortcut {
 }
 
 # Criar atalhos para os programas copiados
-Create-Shortcut -shortcutName "LibreSprite" -targetPath "$destinationFolder\LibreSprite\LibreSprite.exe" -description "LibreSprite" -iconLocation "$destinationFolder\LibreSprite\LibreSprite.exe"
-Create-Shortcut -shortcutName "MagicaVoxel" -targetPath "$destinationFolder\MagicaVoxel\MagicaVoxel.exe" -description "MagicaVoxel" -iconLocation "$destinationFolder\MagicaVoxel\MagicaVoxel.exe"
-Create-Shortcut -shortcutName "Piskel" -targetPath "$destinationFolder\Piskel\Piskel.exe" -description "Piskel" -iconLocation "$destinationFolder\Piskel\Piskel.exe"
+New-Shortcut -shortcutName "LibreSprite" -targetPath "$destinationFolder\LibreSprite\LibreSprite.exe" -description "LibreSprite" -iconLocation "$destinationFolder\LibreSprite\LibreSprite.exe"
+New-Shortcut -shortcutName "MagicaVoxel" -targetPath "$destinationFolder\MagicaVoxel\MagicaVoxel.exe" -description "MagicaVoxel" -iconLocation "$destinationFolder\MagicaVoxel\MagicaVoxel.exe"
+New-Shortcut -shortcutName "Piskel" -targetPath "$destinationFolder\Piskel\Piskel.exe" -description "Piskel" -iconLocation "$destinationFolder\Piskel\Piskel.exe"
 
 Write-Host "Processo concluido!" -ForegroundColor Green -BackgroundColor DarkGreen
