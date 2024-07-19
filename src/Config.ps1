@@ -23,3 +23,8 @@ Execute-Script -scriptPath $setWallpaper
 Execute-Script -scriptPath $addPortables
 Execute-Script -scriptPath $installPrograms
 Execute-Script -scriptPath $blockCustomizations
+
+Write-Host "Configuracao efetuada com sucesso!" -ForegroundColor Green
+Write-Host "AVISO: Lembre-se de instalar manualmente os seguintes programas: Construct3, Roblox Studio" -ForegroundColor Yellow -BackgroundColor Red
+Write-Host "RECOMENDADO: Rode um Debloater (Ex: Windows Debloat Tools)" -ForegroundColor Cyan -BackgroundColor Blue
+Read-Host "Pressione qualquer tecla para sair"

@@ -21,4 +21,4 @@ Set-RegistryValue -path $wallpaperPolicyPath -name "NoChangingWallpaper" -value 
 $desktopPolicyPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer"
 Set-RegistryValue -path $desktopPolicyPath -name "NoSaveSettings" -value 1 -type "DWord"
 
-Write-Host "Configuracoes de personalizacao bloqueadas." -ForegroundColor Green
+Write-Host "Configuracoes de personalizacao bloqueadas." -ForegroundColor Green -BackgroundColor DarkGreen

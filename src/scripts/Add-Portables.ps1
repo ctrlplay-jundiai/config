@@ -50,4 +50,4 @@ Create-Shortcut -shortcutName "LibreSprite" -targetPath "$destinationFolder\Libr
 Create-Shortcut -shortcutName "MagicaVoxel" -targetPath "$destinationFolder\MagicaVoxel\MagicaVoxel.exe" -description "MagicaVoxel" -iconLocation "$destinationFolder\MagicaVoxel\MagicaVoxel.exe"
 Create-Shortcut -shortcutName "Piskel" -targetPath "$destinationFolder\Piskel\Piskel.exe" -description "Piskel" -iconLocation "$destinationFolder\Piskel\Piskel.exe"
 
-Write-Host "Processo concluido!" -ForegroundColor Green
+Write-Host "Processo concluido!" -ForegroundColor Green -BackgroundColor DarkGreen

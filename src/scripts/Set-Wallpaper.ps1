@@ -24,12 +24,10 @@ function Set-Wallpaper {
     $result = [Wallpaper]::SystemParametersInfo(0x0014, 0, $path, 0x0001)
     
     if ($result -ne 0) {
-        Write-Host "Wallpaper foi alterado com sucesso!" -ForegroundColor Green 
+        Write-Host "Wallpaper foi alterado com sucesso!" -ForegroundColor Green -BackgroundColor DarkGreen
     } else {
-        Write-Host "Falha ao tentar definir wallpaper" -ForegroundColor Red 
+        Write-Host "Falha ao tentar definir wallpaper" -ForegroundColor Red -BackgroundColor Yellow
     }
-
-    Read-Host -Prompt "Pressione qualquer tecla"
 }
 
 Set-Wallpaper -path $wallpaperPath
