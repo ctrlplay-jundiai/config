@@ -1,0 +1,1 @@
+.\"WinDebloatTools.ps1" 'CLI'
