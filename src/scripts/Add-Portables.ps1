@@ -32,7 +32,7 @@ function New-Shortcut {
     $WScriptShell = New-Object -ComObject WScript.Shell
     
     # Criar o atalho
-    $shortcut = $WScriptShell.NewShortcut($shortcutPath)
+    $shortcut = $WScriptShell.CreateShortcut($shortcutPath)
     $shortcut.TargetPath = $targetPath
     $shortcut.Description = $description
     if ($iconLocation) {
