@@ -11,7 +11,7 @@ choco install adobereader git firacode vscode winrar arduino blender lmms nodejs
 choco install godot --version=3.5.1 -y
 
 # Instalar o Postgresql e definir a senha padrão
-choco install postgresql --params '/Password:postgres'
+choco install postgresql --params "/Password:postgres" -y
 
 # Função para instalar aplicativos usando winget
 function Install-App {
